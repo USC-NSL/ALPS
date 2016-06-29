@@ -1,0 +1,12 @@
+theta
+	east -> 0
+	north -> 90
+	west -> 180/-180
+	south -> -90
+
+heading
+	east -> 90
+	north -> 0
+	west -> -90
+	south -> 180/-180
+
