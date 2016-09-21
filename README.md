@@ -2,11 +2,11 @@
 Public code repository for paper [ALPS](https://nsl.cs.usc.edu/Papers?action=download&upname=Yitao16a.pdf)
 
 ## System requirements:
--Linux OS (Ubuntu 14.04 preferred) 
--Python 2.x
--OpenCV 2.4.x
--CUDA (if you want to accelerate with GPU)
--selenium for python
+- Linux OS (Ubuntu 14.04 preferred) 
+- Python 2.x
+- OpenCV 2.4.x
+- CUDA (if you want to accelerate with GPU)
+- selenium for python
 
 ## How to Use
 1. Specify the detection aera in *config/query_area.info*. The first GPS is southwest corner and the second GPS is northeast corner.
@@ -23,3 +23,7 @@ Public code repository for paper [ALPS](https://nsl.cs.usc.edu/Papers?action=dow
 - How to train ALPS to detect more objects? 
 
 	See [YOLO](https://github.com/hyperchris/Yolo).
+
+- More questions?
+
+	Leave your comments in 'Issue' and we'll reply ASAP.
