@@ -16,10 +16,10 @@ Public code repository for paper [ALPS](https://nsl.cs.usc.edu/Papers?action=dow
 5. The intermediate and final results will be stored in *data/*.
 
 ## FAQ
-1. The image downloading process (05 and 07) sometimes failed. What can I do?
+- The image downloading process (05 and 07) sometimes failed. What can I do?
 
-Google may break the link randomly (maybe due to security concern?). So you should mannually restart the script after updating the parameters in code with most recent downloaded image's filename. 
+	Google may break the link randomly (maybe due to security concern?). So you should mannually restart the script after updating the parameters in code with most recent downloaded image's filename. 
 
-2. How to train ALPS to detect more objects? 
+- How to train ALPS to detect more objects? 
 
-See [YOLO](https://github.com/hyperchris/Yolo).
+	See [YOLO](https://github.com/hyperchris/Yolo).
