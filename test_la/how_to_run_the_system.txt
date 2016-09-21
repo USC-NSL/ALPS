@@ -1,0 +1,127 @@
+=== basic image database ===
+generate_initial_point.py
+	input
+	output
+		generate_initial_point_output.txt
+
+generate_standing_point.py
+	input
+		generate_initial_point_output.txt
+	output
+		generate_standing_point_output.txt
+
+download_image_with_zoom.py
+	input
+		generate_standing_point_output.txt
+	output
+		download_image_with_zoom_output.txt
+		basic image database
+
+=== landmark specific ===
+*** xiaochen's yolo detector
+	input
+		basic image database
+	output
+		basic_image_database_yolo_result.txt
+
+fov_confidence_level.py
+	input
+		basic_image_database_yolo_result.txt
+	output
+		fov_confidence_level_output.txt
+		fov new downloaded image
+
+*** xiaochen's yolo detector
+	input
+		fov new downloaded image
+	output
+		fov_confidence_level_yolo_result.txt
+
+fov_analysis.py
+	input
+		fov_confidence_level_output.txt
+		fov_confidence_level_yolo_result.txt
+	output
+		fov_analysis_output_formal.txt
+
+=== distance_based_clustering.py
+	input
+		fov_analysis_output_formal.txt
+		basic_image_database_yolo_result.txt
+	output
+		distance_based_clustering_output.txt
+
+	do_triangulation_for_seed_location.py
+	input
+		distance_based_clustering_output.txt
+	output
+		do_triangulation_for_seed_location_output.txt
+
+=== distance_heading_based_clustering.py
+	input
+		fov_analysis_output_formal.txt
+		basic_image_database_yolo_result.txt
+	output
+		distance_heading_based_clustering_output.txt
+	distance_heading_misc.py
+	input
+		distance_heading_based_clustering_output.txt
+	output
+		distance_based_clustering_output.txt
+		do_triangulation_for_seed_location_output.txt
+
+adaptive_location_generator.py
+	input
+		distance_based_clustering_output.txt
+		do_triangulation_for_seed_location_output.txt
+	output
+		adaptive_location_generator_output.txt
+
+adaptive_image_downloader.py
+	input
+		adaptive_location_generator_output.txt
+	output
+		adaptive_image_downloader_output.txt
+		adaptive image database
+
+*** xiaochen's yolo detector
+	input
+		adaptive image database
+	output
+		adaptive_image_downloader_yolo_result.txt
+
+adaptive_fov_downloader.py
+	input
+		adaptive_image_downloader_yolo_result.txt
+	output
+		adaptive_fov_downloader_output.txt
+		adaptive fov downloader
+
+*** xiaochen's yolo detector
+	input
+		adaptive fov downloader
+	output
+		adaptive_fov_downloader_yolo_result.txt
+
+adaptive_fov_analysis.py
+	input
+		adaptive_fov_downloader_yolo_result.txt
+		adaptive_fov_downloader_output.txt
+		adaptive_image_downloader_yolo_result.txt
+	output
+		adaptive_fov_analysis_output.txt
+		adaptive_fov_analysis_output_formal.txt
+
+adaptive_fov_pretty.py
+	input
+		adaptive_fov_analysis_output_formal.txt
+	output
+		adaptive_fov_pretty_output.txt
+
+do_triangulation_for_adaptive.py
+	input
+		adaptive_fov_pretty_output.txt
+	output
+		do_triangulation_for_adaptive_output.txt
+
+

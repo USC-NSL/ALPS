@@ -1,0 +1,225 @@
+=== play with the 0th cluster ===
+score: 5
+34.0737701917,-118.308069854
+=== play with the 1th cluster ===
+score: -1
+34.0726237737,-118.308032508
+=== play with the 2th cluster ===
+score: 2
+34.0718845028,-118.30199771
+=== play with the 3th cluster ===
+score: 3
+34.0711232413,-118.30819852
+=== play with the 4th cluster ===
+score: -1
+34.0704963962,-118.308006012
+=== play with the 5th cluster ===
+score: -1
+34.0738057819,-118.299508057
+=== play with the 6th cluster ===
+score: 2
+34.0751576654,-118.299559883
+=== play with the 7th cluster ===
+score: 3
+34.0762862576,-118.306217164
+=== play with the 8th cluster ===
+score: 3
+34.0616146788,-118.303128138
+=== play with the 9th cluster ===
+score: -1
+34.0597853136,-118.302978658
+=== play with the 10th cluster ===
+score: -1
+34.0596058356,-118.303175016
+=== play with the 11th cluster ===
+score: 2
+34.0586110634,-118.303910194
+=== play with the 12th cluster ===
+score: -1
+34.0577668605,-118.303173553
+=== play with the 13th cluster ===
+score: 4
+34.0763511256,-118.303293964
+=== play with the 14th cluster ===
+score: 4
+34.0789148074,-118.303679835
+=== play with the 15th cluster ===
+score: -1
+34.0790978652,-118.303339212
+=== play with the 16th cluster ===
+score: -1
+34.0799445258,-118.303528055
+=== play with the 17th cluster ===
+score: -1
+34.0816370205,-118.303546103
+=== play with the 18th cluster ===
+score: -1
+34.0822251302,-118.303364281
+=== play with the 19th cluster ===
+score: -1
+34.0834036977,-118.303557249
+=== play with the 20th cluster ===
+score: 2
+34.0738807648,-118.303124536
+=== play with the 21th cluster ===
+score: 4
+34.0729801398,-118.312572579
+=== play with the 22th cluster ===
+score: -1
+34.0720592607,-118.312550994
+=== play with the 23th cluster ===
+score: -1
+34.0711779853,-118.312530072
+=== play with the 24th cluster ===
+score: -1
+34.0738404711,-118.312400702
+=== play with the 25th cluster ===
+score: 5
+34.0762122359,-118.296646777
+=== play with the 26th cluster ===
+score: -1
+34.0767191374,-118.296896534
+=== play with the 27th cluster ===
+score: 3
+34.0723765613,-118.313725733
+=== play with the 28th cluster ===
+score: -1
+34.0744519057,-118.310183073
+=== play with the 29th cluster ===
+score: -1
+34.0745616183,-118.310186252
+=== play with the 30th cluster ===
+score: 5
+34.0748115587,-118.310319841
+=== play with the 31th cluster ===
+score: 3
+34.0729592584,-118.289971983
+=== play with the 32th cluster ===
+score: -1
+34.0723092993,-118.290607118
+=== play with the 33th cluster ===
+score: -1
+34.0717433659,-118.290433937
+=== play with the 34th cluster ===
+score: 2
+34.0705772523,-118.290617908
+=== play with the 35th cluster ===
+score: -1
+34.0738399223,-118.300393658
+=== play with the 36th cluster ===
+score: -1
+34.0736336105,-118.301806126
+=== play with the 37th cluster ===
+score: -1
+34.0736317864,-118.303607652
+=== play with the 38th cluster ===
+score: 7
+34.0738354018,-118.304254545
+=== play with the 39th cluster ===
+score: 2
+34.0732242958,-118.306729771
+=== play with the 40th cluster ===
+score: -1
+34.0737994448,-118.307053834
+=== play with the 41th cluster ===
+score: -1
+34.0737978832,-118.307147134
+=== play with the 42th cluster ===
+score: -1
+34.0737884565,-118.308503272
+=== play with the 43th cluster ===
+score: -1
+34.0789179679,-118.301300221
+=== play with the 44th cluster ===
+score: 4
+34.0618794271,-118.311669735
+=== play with the 45th cluster ===
+score: 4
+34.0605357987,-118.311771759
+=== play with the 46th cluster ===
+score: -1
+34.0579822133,-118.311275423
+=== play with the 47th cluster ===
+score: 2
+34.0557852903,-118.316114134
+=== play with the 48th cluster ===
+score: -1
+34.0543322253,-118.311278413
+=== play with the 49th cluster ===
+score: -1
+34.0533658191,-118.311272197
+=== play with the 50th cluster ===
+score: 2
+34.0520491338,-118.311426634
+=== play with the 51th cluster ===
+score: -1
+34.050699995,-118.311257032
+=== play with the 52th cluster ===
+score: -1
+34.0495424877,-118.311249434
+=== play with the 53th cluster ===
+score: 2
+34.0704587975,-118.311890997
+=== play with the 54th cluster ===
+score: -1
+34.0703360678,-118.311530041
+=== play with the 55th cluster ===
+score: -1
+34.0680089555,-118.311705339
+=== play with the 56th cluster ===
+score: -1
+34.0677990111,-118.31150318
+=== play with the 57th cluster ===
+score: 3
+34.0672623826,-118.311735636
+=== play with the 58th cluster ===
+score: -1
+34.0662715219,-118.311695097
+=== play with the 59th cluster ===
+score: 2
+34.0657183622,-118.312253434
+=== play with the 60th cluster ===
+score: -1
+34.0647895835,-118.311686555
+=== play with the 61th cluster ===
+score: 6
+34.0635344436,-118.311720636
+=== play with the 62th cluster ===
+score: -1
+34.0628203711,-118.311662484
+=== play with the 63th cluster ===
+score: -1
+34.0625747388,-118.3116603
+=== play with the 64th cluster ===
+score: -1
+34.0617673034,-118.311643749
+=== play with the 65th cluster ===
+score: 3
+34.0747002743,-118.313670935
+=== play with the 66th cluster ===
+score: 4
+34.07522867,-118.298485736
+=== play with the 67th cluster ===
+score: 3
+34.0751491368,-118.300505527
+=== play with the 68th cluster ===
+score: -1
+34.0754172401,-118.30190006
+=== play with the 69th cluster ===
+score: 3
+34.0741180906,-118.305565313
+=== play with the 70th cluster ===
+score: -1
+34.0744794374,-118.304237845
+=== play with the 71th cluster ===
+score: -1
+34.0748977035,-118.304231675
+=== play with the 72th cluster ===
+score: 2
+34.0750225834,-118.308116128
+=== play with the 73th cluster ===
+score: 3
+34.0758457499,-118.307083887
+=== play with the 74th cluster ===
+score: 7
+34.076262446,-118.307878923

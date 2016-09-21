@@ -1,0 +1,14 @@
+=== play with the 0th seed ===
+34.0749076664,-118.309426871
+=== play with the 1th seed ===
+34.061971581,-118.313202579
+=== play with the 2th seed ===
+34.0620225202,-118.295092225
+=== play with the 3th seed ===
+34.0619731646,-118.290437527
+=== play with the 4th seed ===
+34.0618177953,-118.305829528
+=== play with the 5th seed ===
+34.0760367723,-118.30072655
+=== play with the 6th seed ===
+34.0705096789,-118.291242269
