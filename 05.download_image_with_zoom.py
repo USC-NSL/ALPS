@@ -9,7 +9,7 @@ work_dir = "./data/%s/%s/" % (query_city, query_area.replace(" ", "").replace(",
 f_input = open(work_dir + "04.adjust_standing_point_output.txt", "r")
 f_output = open(work_dir + "05.download_image_with_zoom_output.txt", "w")
 
-query_fov = "20"
+query_fov = "60"
 query_key_google = open("./config/query_google_key.info", "r").readline().rstrip()
 
 photo_dir = work_dir + "base_image_database/"
@@ -41,8 +41,8 @@ def download_photo(tmp_node, way_index, way_id, node_index):
 	for k in range(2):
 		heading = heading0 + k * 180
 
-		for i in range(-20, 40, 20): # -20, 0, 20
-			for j in range(-15, 15, 10): # -15, -5, 5
+		for i in range(-20, 21, 40): # -20, 0, 20
+			for j in range(0, 1): # -15, -5, 5
 				query_heading = str(float(heading) + i)
 				query_pitch = str(j)
 
@@ -69,9 +69,20 @@ if __name__ == '__main__':
 		way_id = f_input.readline().rstrip()
 		node_num = int(f_input.readline().rstrip())
 		for i in range(node_num):
-			tmp = f_input.readline().rstrip().split(",")
+			fline = f_input.readline().rstrip()
+			if 'Error' in fline:
+				print('ignore %s' % fline)
+				f_input.readline()
+				continue 
+			tmp = fline.split(",")
+			if len(tmp) < 2: 
+				f_input.readline()
+				continue 
 			tmp_lat = tmp[0]
 			tmp_lng = tmp[1]
+			if not isinstance(tmp_lat, float) or not isinstance(tmp_lng, float):
+				f_input.readline()
+				continue 
 			tmp_theta = f_input.readline().rstrip()
 			tmp_node = node(tmp_lat, tmp_lng, tmp_theta)
 				

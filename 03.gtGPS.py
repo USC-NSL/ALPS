@@ -100,7 +100,8 @@ def GetLatLon(din, outFileName):
             fout.write(table_html.split('(')[-1].split(')')[0] + '\n')
         else:
             print `i` + '\t' + `inloc` + ': No data received'
-            fout.write("Error on %s,%s..." % (inloc[0], inloc[1]))
+            # continue
+            fout.write("Error on %s,%s...\n" % (inloc[0], inloc[1]))
     fout.close()
     driver.close()
 
